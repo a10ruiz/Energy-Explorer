@@ -16,5 +16,5 @@ function transformRow(d) {
     };
 }
 
-d3.csv('data/data.csv', transformRow)
+d3.csv('https://github.com/a10ruiz/Energy-Explorer/blob/be25a527e6e85ceb6e419618ba317547e6d66d72/data.csv', transformRow)
     .then(dataIsReady);
